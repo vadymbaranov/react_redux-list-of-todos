@@ -15,6 +15,7 @@ import { Status } from './types/Status';
 import { getTodos } from './api';
 import { actions as currentTodoActions } from './features/currentTodo';
 import { actions as filterActions } from './features/filter';
+// import { actions as todosActions } from './features/todos';
 
 export const App: React.FC = () => {
   const dispatch = useAppDispatch();
